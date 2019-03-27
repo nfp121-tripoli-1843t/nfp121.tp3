@@ -1,5 +1,3 @@
-package question1;
-
 public class Pile {
     public final static int TAILLE_PAR_DEFAUT = 5;
 
