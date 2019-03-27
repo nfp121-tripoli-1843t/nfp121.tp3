@@ -1,8 +1,3 @@
-package question2;
-
-import question1.PilePleineException;
-import question1.PileVideException;
-import java.util.Stack;;
 public class Pile2 implements PileI {
     /** par délégation : utilisation de la class Stack */
     private Stack<Object> stk;

@@ -44,6 +44,8 @@ try{
                 contenu.setText(p.toString());
             } catch (PilePleineException e) {
                 contenu.setText(p.toString() + " estPleine !");
+                 } catch (NumberFormatException nfe) {
+                contenu.setText(p.toString() + " error : " + nfe.getMessage());
             } 
 
         }else{
